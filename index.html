@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="CSS/custom.css">
+  <title>Principal</title>
+</head>
+
+<body>
+  <!-- ---------------- HEADER --------------- -->
+  <header>
+    <nav id="navegador" class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <i class="bi bi-bezier2"></i>
+          <span class="text-info">TechRamirez</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="submenu" role="button" data-bs-toggle="dropdown"
+                href="#">Descubrir</a>
+              <ul class="dropdown-menu bg-light">
+                <li><a class="dropdown-item" href="#">Ratones y teclados</a></li>
+                <li><a class="dropdown-item" href="#">Dispositivos Móviles</a></li>
+                <li><a class="dropdown-item" href="#">Streaming</a></li>
+                <li><a class="dropdown-item" href="#">Altavoces</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <hr class="text-white-50">
+          <i class="bi bi-person-circle"></i>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="submenu" role="button" data-bs-toggle="dropdown" href="#">Iniciar sesión</a>
+              <ul class="dropdown-menu bg-light p-3 login">
+                <form>
+                  <li class="nav-item form-group">
+                    <label for="label">Email</label>
+                    <input type="email" class="form-control" id="mail" placeholder="borja@techRamirez.com">
+                  </li>
+                  <li class="nav-item form-group">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" class="form-control" id="pass" placeholder="Password">
+                  </li>
+                  <li class="nav-item form-check">
+                    <input type="checkbox" class="form-check-input" id="recuerdame">
+                    <label class="form-check-label" for="recuerdame">
+                      Recuérdame
+                    </label>
+                  </li>
+                  <li class="nav-item">
+                    <button type="submit" class="btn btn-primary boton">Entrar</button>
+                  </li>
+                </form>
+              </ul>
+            </li>
+          </ul>
+          <hr class="text-white-50">
+          <!-- Barra de Búsqueda -->
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- ---------------- BANNER --------------- -->
+    <div id="banner" class="container-fluid" style="background: url(images/banner.jpg); background-size: cover;">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="images/banner3.avif" class="d-block mx-lg-auto img-fluid" alt="Banner" width="700" height="500"
+              loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3 text-uppercase">Muéstrate a tu manera</h1>
+            <p class="lead">Excelencia. Todo lo que hacemos en TechRamirez está impulsado por una pasión
+              inquebrantable por la excelencia y un firme compromiso de desarrollar los mejores productos y
+              servicios en el mercado.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-secondary btn-lg px-4 me-md-2">Descubre Tecnología</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ---------------- ARTICLE & SECTIONS --------------- -->
+  <article>
+    <section>
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Descubre las Posibilidades</h2>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+          <div class="col" id="diseñaTecnologia">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('images/hpb-crayon.webp'); background-size: cover; background-position: center; cursor: pointer;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Diseña tecnología</h3>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col" id="creaEspacio">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('images/mk470-slim-combo-feature.webp'); background-size: cover; background-position: center; cursor: pointer;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Crea tu propio espacio</h3>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col" id="ultimaTecnologia">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('images/tecnologia.webp'); background-size: cover; background-position: center; cursor:pointer;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Últimas Tecnologías</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="pb-2 border-bottom">Nuestras Categorías</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 align-items-stretch g-4 py-5">
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="images/teclado.webp" style="cursor: pointer;" class="aumentar">
+          <div class="card-body">
+            <a href="productos.html" class="link-secondary d-flex justify-content-center enlace" style="text-decoration: none;">Ratones y Teclados</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="images/dispositivos.webp" style="cursor: pointer;" class="aumentar">
+          <div class="card-body">
+            <a href="productos.html" class="link-secondary d-flex justify-content-center enlace" style="text-decoration: none;">Dispositivos Móviles</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="images/streaming.webp" style="cursor: pointer;" class="aumentar">
+          <div class="card-body">
+            <a href="productos.html" class="link-secondary card-text d-flex justify-content-center enlace" style="text-decoration: none;">Streaming</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="images/altavoces.webp" style="cursor: pointer;" class="aumentar">
+          <div class="card-body">
+            <a href="productos.html" class="link-secondary d-flex justify-content-center enlace" style="text-decoration: none;">Altavoces</a>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid" style="background: url(images/espacio-trabajo.png); background-size: cover; background-position: center;">
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold lh-1 mb-3 text-uppercase">Encuentra los mejores productos para tu espacio de
+                trabajo</h1>
+              <p class="lead text-dark">Responde a algunas preguntas y te ayudaremos a elegir el equipo perfecto para tu
+                lugar de trabajo</p>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-end">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Comenzar Cuestionario</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </article>
+<!-- ---------------- FOOTER --------------- -->
+  <footer>
+    <div class="container-fluid">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-0 text-muted">&copy; 2023 TechRamirez, Inc</span>
+        </div>
+  
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></li>
+          <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/?hl=es"><i class="bi bi-instagram"></i></li>
+          <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></li>
+        </ul>
+      </footer>
+    </div>
+  </footer>
+ 
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

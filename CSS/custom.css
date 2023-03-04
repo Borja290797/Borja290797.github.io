@@ -1,0 +1,150 @@
+/* ---------------------- Animaciones ----------------- */
+.aumentar {
+    transition: transform .8s; 
+}
+ 
+.aumentar:hover {
+    transform: scale(0.9); 
+}
+
+.escalaGrises:hover{
+    transition: transform .8s;
+}
+
+.escalaGrises:hover{
+    filter: sepia(60%);
+}
+
+#telefonoContacto:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#emailContacto:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#formularioContacto:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#diseñaTecnologia:hover {
+    filter: blur(2px);
+}
+
+#creaEspacio:hover{
+    filter: blur(2px);
+}
+
+#ultimaTecnologia:hover{
+    filter: blur(2px);
+}
+
+.enlace:hover{
+    color: aqua;
+}
+
+
+
+/* ------------------- Formulario ---------------------- */
+
+.login form{
+    width: 300px;
+    padding: 1vh 1vw;
+}
+
+/* ------------------- Nav ---------------------- */
+
+#navegador{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+/* --------------------- Página Contacto ---------------- */
+
+#telefonoContacto{
+    background-image: url('../images/telefono.png'); 
+    background-color: rgb(245, 245, 245); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+#imagenContacto{
+    height: 200px !important;
+}
+
+#emailContacto{
+    background-image: url('../images/email.png'); 
+    background-color: rgb(245, 245, 245);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+#imagenEmail{
+    height: 200px !important;
+}
+
+#formularioContacto{
+    background-image: url('../images/formulario.png'); 
+    background-color: rgb(245, 245, 245);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+#imagenFormulario{
+    height: 200px !important;
+}
+
+#formulario1Contacto{
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.178);
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 245);
+    margin-top: 30px;
+}
+
+#formulario1Contacto label, input{
+    padding: 5px;
+}
+
+/* --------------- Carrusel ------------- */
+
+#carruselImagen1{
+    background: url(../images/productosApple.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#carruselImagen2{
+    background: url(../images/productosRatonesyteclados.webp);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#carruselImagen3{
+    background: url(../images/productosAltavoces.webp);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
